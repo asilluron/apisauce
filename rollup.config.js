@@ -19,7 +19,7 @@ export default {
   input: 'lib/apisauce.js',
   output: {
     file: 'dist/apisauce.js',
-    format: 'cjs',
+    format: 'es',
     exports: 'named',
   },
   plugins: [
