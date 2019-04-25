@@ -1,4 +1,4 @@
-import axios, { AxiosResponse, AxiosError } from '@bundled-es-modules/axios'
+import { axios, AxiosResponse, AxiosError } from '@bundled-es-modules/axios'
 import {
   cond,
   isNil,
