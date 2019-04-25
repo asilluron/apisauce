@@ -2,7 +2,7 @@ import babel from 'rollup-plugin-babel'
 import uglify from 'rollup-plugin-uglify'
 import filesize from 'rollup-plugin-filesize'
 
-const externalModules = ['ramda', 'axios']
+const externalModules = ['axios']
 
 function isImportExternal (importStr) {
   let external = false
@@ -23,7 +23,7 @@ export default {
     exports: 'named',
   },
   plugins: [
-    babel({ babelrc: false, plugins: ['ramda'] }),
+    babel({ babelrc: false }),
     uglify(),
     filesize()
   ],
