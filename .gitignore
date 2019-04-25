@@ -4,6 +4,5 @@ docs
 coverage
 npm-debug.log
 yarn.lock
-dist
 .vscode
 lib/apisauce.js
