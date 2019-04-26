@@ -1,3 +1,4 @@
+declare module '@bundled-es-modules/axios'
 import { AxiosInstance, AxiosRequestConfig, AxiosError, CancelTokenStatic } from '@bundled-es-modules/axios'
 
 export type HEADERS = { [key: string]: string }
